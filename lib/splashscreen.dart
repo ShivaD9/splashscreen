@@ -49,7 +49,7 @@ class _SplashScreenState extends State<SplashScreen>
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Image.asset(
-                'assets/logo.png', // Replace with your own image path
+                'assets/logo.png', // Replace with your own image path and enable the assets folder in pubspec.yaml file and also create a folder of assets
                 width: 200,
                 height: 200,
               ),
